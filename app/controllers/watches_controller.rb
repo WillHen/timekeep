@@ -24,11 +24,11 @@ class WatchesController < ApplicationController
   end
 
   def edit
-      @watch = Watch.find(parans[:id])
+      @watch = Watch.find(params[:id])
   end
     
    def update
-       @watch = Watch.find(parans[:id])
+       @watch = Watch.find(params[:id])
    end
     
     def destroy
