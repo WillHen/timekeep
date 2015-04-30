@@ -2,13 +2,13 @@
 <% @watches.each do |watch| %>
     <div class"watch">
 <!--Make a link to the show page-->
-<%= link_to watch_path(1) do %>
+<%= link_to watch_path(watch) do %>
 <!--add in image here -->
         <div class="price">
 <!--link price to new orders-->
-        <span><%= watch[:price_in_pence] %></span>
+        <span><%= watch.price_in_pence %></span>
          </div>
-        <h2><%= watch[:name] %></h2>
+        <h2><%= watch.name %></h2>
         <% end %>
     </div>
     
