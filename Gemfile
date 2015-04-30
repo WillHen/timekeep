@@ -39,3 +39,4 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'simple_form'
 gem 'paperclip', '~> 4.2'
+gem 'aws-sdk', '~> 1.6'
